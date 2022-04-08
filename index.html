@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Withreate</title>
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/9f3463b573.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+    <style>
+      /*Chrome*/
+      ::-webkit-scrollbar {/*縦方向スクロールバーの幅*/
+          width: 8px;
+      }
+      ::-webkit-scrollbar:horizontal {/*横方向スクロールバーの高さ*/
+          height: 8px;
+      }
+      ::-webkit-scrollbar-track {/*スクロールバーの軌道*/
+          background: rgba(0,0,0,0);
+      }
+      ::-webkit-scrollbar-thumb {/*つまみの部分*/
+          border-radius: 10px;
+          background: rgba(0,0,0,10);
+      }
+      ::-webkit-scrollbar-thumb:hover {/*マウスホバー時*/
+          background: rgba(40, 40, 60, 10);
+          transition: 0.5s;
+          border: 1px rgb(30, 30, 40);
+      }
+    </style>
+  </body>
+</html>
