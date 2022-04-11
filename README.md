@@ -15,5 +15,6 @@ Withreateのプロトタイプです。
 ```bash
 git clone https://github.com/shibata-kuronosuke/Withreate-demo.git
 cd Withreate-demo
+npm install
 npm run dev
 ```
